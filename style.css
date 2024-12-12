@@ -252,3 +252,17 @@ footer {
     font-size: 1rem;
     font-weight: 500;
 }
+
+.produto-container {
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px){
+    .produto-container{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}
